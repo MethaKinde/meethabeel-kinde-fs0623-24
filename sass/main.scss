@@ -1,0 +1,41 @@
+@import "variables";
+@import "../bootstrap/bootstrap.scss";
+
+body {
+    font-family: $fontPage;
+    background-color: $bgPage;
+    color: white;
+}
+
+.navbar{
+    .navbar-brand{
+        .img-fluid{
+            width: 100px;
+        }
+    }
+    .d-flex {
+        .dropdown{
+            .img-fluid{
+                width: 40px;
+            }
+        }
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev{
+    display: flex;
+}
+
+main {
+    margin-bottom: 100px;
+}
+
+
+/*profilePage*/
+header {
+    .img-fluid{
+        width: 150px;
+    }
+}

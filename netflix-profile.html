@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Profile page</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="content-fluid">
+            <img src="./assets/netflix_logo.png" alt="logo" class="img-fluid">
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row mb-2 border-bottom border-secondary-subtle">
+                <div class="col-12">
+                    <h1 class="display-1">Edit Profile</h1>
+                </div>
+            </div>
+            <div class="row my-4 border-bottom border-secondary-subtle">
+                <div class="col-3">
+                    <img src="./assets/kids_icon.png" alt="profileKide" class="img-fluid">
+                </div>
+                <div class="col-8">
+                    <div class="row mb-2 border-bottom border-secondary-subtle">
+                        <input type="text" class="bg-secondary text-white py-2 border-0 mb-4" id="profile-name-entry" aria-labelledby="profile-name-entry-label" placeholder="Nom" value="Stive Student">
+                        <div class="col-12 mb-3">
+                            <h4 class="mb-1">Language:</h4>
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-outline-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    English
+                                </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Français</a></li>
+                                        <li><a class="dropdown-item" href="#">Italiano</a></li>
+                                        <li><a class="dropdown-item" href="#">Espanol</a></li>
+                                        <li><a class="dropdown-item" href="#">Nederlands</a></li>
+                                        <li><a class="dropdown-item" href="#">Polski</a></li>
+                                        <li><a class="dropdown-item" href="#">Deutsh</a></li>
+                                        <li><a class="dropdown-item" href="#">Portugues</a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-2 border-bottom border-secondary-subtle">
+                        <div class="col-10 mt-4">
+                            <h4>Maturity Settings:</h4>
+                        </div>
+                        <div class="col-10">
+                            <button type="button" class="btn btn-secondary">ALL MATURITY RATINGS</button>
+                            <p class="my-4">Show titles of <span class="fw-bold">all maturity ratings</span> for this page</p>
+                        </div>
+                        <div class="col-10 mb-4">
+                            <button type="button" class="btn btn-outline-secondary px-3">EDIT</button>
+                        </div>
+                    </div>
+                    <div class="row my-4">
+                        <div class="col-12">
+                            <h4>Autoplay controls</h4>
+                        </div>
+                        <div class="col-12">
+                            <p><i class="bi bi-check2-square"></i> Autoplay next episode in a series on all devices.</p>
+                            <p><i class="bi bi-check2-square"></i>Autoplay previews while browsing on all devices.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button type="button" class="btn btn-outline-light btn-lg rounded-0 px-4 me-3"><span class="fw-bold">SAVE</span></button>
+                    <button type="button" class="btn btn-outline-secondary btn-lg rounded-0 px-4 me-3"><span class="fw-bold">CANCEL</span></button>
+                    <button type="button" class="btn btn-outline-secondary btn-lg rounded-0 px-4 me-3"><span class="fw-bold">DELETE PROFILE</span></button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
